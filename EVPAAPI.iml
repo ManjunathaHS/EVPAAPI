@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
@@ -11,6 +29,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.6" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.22" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:rest-assured:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-xml:2.4.12" level="project" />
@@ -39,9 +61,6 @@
     <orderEntry type="library" name="Maven: com.github.fge:btf:1.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.fge:jackson-coreutils:1.8" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.2.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.2.3" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.mozilla:rhino:1.7R4" level="project" />
     <orderEntry type="library" name="Maven: javax.mail:mailapi:1.4.3" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
@@ -79,5 +98,12 @@
     <orderEntry type="library" name="Maven: org.mongodb:bson:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.directory.studio:org.apache.commons.codec:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.61" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.61" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.61" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:1.2.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test-common:1.2.61" level="project" />
   </component>
 </module>
