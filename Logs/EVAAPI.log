@@ -1,0 +1,120 @@
+2018-10-24 14:19:52 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:52 DEBUG DefaultClientConnectionOperator:177 - Connecting to hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:54 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-10-24 14:19:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-10-24 14:19:54 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-10-24 14:19:54 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-10-24 14:19:54 DEBUG DefaultClientConnection:274 - Sending request: GET /api/v1/manjunatha.s%40harman.com?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "GET /api/v1/manjunatha.s%40harman.com?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1Mzc3NzA1ODAsIm5iZiI6MTUzNzc2Njk4MCwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLzYzNGIzMzM5LTlkOGUtNDc2ZS1iN2QwLTI0YmI2NmFiNDk0Yy8iLCJzdWIiOiJhNTk0Y2Y5ZC1mNWQzLTQyZTgtYTA5Yy0zY2E3ZTgyMTBiNmYiLCJhdWQiOiJiYjE5ZTRhZS0zYmI1LTQxZjUtOWIwZi1kYjYwMjBiZDc3M2YiLCJub25jZSI6IjllMDEwYTdiLWY2NTUtNDZkYS04NWY0LWQ0MzZkMTczYWNlYyIsImlhdCI6MTUzNzc2Njk4MCwiYXV0aF90aW1lIjoxNTM3NzY2OTgwLCJleHRlbnNpb25fUm9sZSI6IlByb3BlcnR5IEFkbWluIiwibmFtZSI6Ik1hbmp1bmF0aGEgIEhTIiwiZW1haWxzIjpbIm1hbmp1bmF0aGEuc0BoYXJtYW4uY29tIl0sInRmcCI6IkIyQ18xX0hDU19TaWduSW5VcFBvbGljeSJ9.UxbQfCDsrkVtTPnTtngyD5nV91m5XfsZ9xkhrvuhTjkcu4-W1T_0YqFikzxnTUlFJJ1n84KMlomipiaRRNyyxPEWKpqTA3fvBqLG9EnSI7xA4v5Z2KFJmu53GIYyyy5yftQo9N4DcMwjYkzpDqyfmcuK23hM8hjxdZ2N90vPEo-zScknSMJZSkt1xBltI4odPyxwW028kYoFgSbEHByk4XqFFSKq0APnMKG_NyeLH7v-Z1wwpEeX49bPZHqID6zC-Yd4tAYl0CxrWzka8dcLYklakqY6_T3otWh7QFrlABnORr3OExwxTSBRckKgsoVOaW0jVnD4-hPFaw9IKCM_Xg[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "Accept: application/json[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "Host: hcsfabricqan.southcentralus.cloudapp.azure.com:8892[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-24 14:19:54 DEBUG wire:73 -  >> "[\r][\n]"
+2018-10-24 14:19:54 DEBUG headers:278 - >> GET /api/v1/manjunatha.s%40harman.com?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1
+2018-10-24 14:19:54 DEBUG headers:281 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1Mzc3NzA1ODAsIm5iZiI6MTUzNzc2Njk4MCwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLzYzNGIzMzM5LTlkOGUtNDc2ZS1iN2QwLTI0YmI2NmFiNDk0Yy8iLCJzdWIiOiJhNTk0Y2Y5ZC1mNWQzLTQyZTgtYTA5Yy0zY2E3ZTgyMTBiNmYiLCJhdWQiOiJiYjE5ZTRhZS0zYmI1LTQxZjUtOWIwZi1kYjYwMjBiZDc3M2YiLCJub25jZSI6IjllMDEwYTdiLWY2NTUtNDZkYS04NWY0LWQ0MzZkMTczYWNlYyIsImlhdCI6MTUzNzc2Njk4MCwiYXV0aF90aW1lIjoxNTM3NzY2OTgwLCJleHRlbnNpb25fUm9sZSI6IlByb3BlcnR5IEFkbWluIiwibmFtZSI6Ik1hbmp1bmF0aGEgIEhTIiwiZW1haWxzIjpbIm1hbmp1bmF0aGEuc0BoYXJtYW4uY29tIl0sInRmcCI6IkIyQ18xX0hDU19TaWduSW5VcFBvbGljeSJ9.UxbQfCDsrkVtTPnTtngyD5nV91m5XfsZ9xkhrvuhTjkcu4-W1T_0YqFikzxnTUlFJJ1n84KMlomipiaRRNyyxPEWKpqTA3fvBqLG9EnSI7xA4v5Z2KFJmu53GIYyyy5yftQo9N4DcMwjYkzpDqyfmcuK23hM8hjxdZ2N90vPEo-zScknSMJZSkt1xBltI4odPyxwW028kYoFgSbEHByk4XqFFSKq0APnMKG_NyeLH7v-Z1wwpEeX49bPZHqID6zC-Yd4tAYl0CxrWzka8dcLYklakqY6_T3otWh7QFrlABnORr3OExwxTSBRckKgsoVOaW0jVnD4-hPFaw9IKCM_Xg
+2018-10-24 14:19:54 DEBUG headers:281 - >> Accept: application/json
+2018-10-24 14:19:54 DEBUG headers:281 - >> Host: hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:54 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-10-24 14:19:54 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2018-10-24 14:19:54 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-10-24 14:19:55 DEBUG wire:73 -  << "HTTP/1.1 404 Not Found[\r][\n]"
+2018-10-24 14:19:55 DEBUG wire:73 -  << "Content-Length: 215[\r][\n]"
+2018-10-24 14:19:55 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-10-24 14:19:55 DEBUG wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2018-10-24 14:19:55 DEBUG wire:73 -  << "Date: Wed, 24 Oct 2018 08:49:54 GMT[\r][\n]"
+2018-10-24 14:19:55 DEBUG wire:73 -  << "[\r][\n]"
+2018-10-24 14:19:55 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 404 Not Found
+2018-10-24 14:19:55 DEBUG headers:262 - << HTTP/1.1 404 Not Found
+2018-10-24 14:19:55 DEBUG headers:265 - << Content-Length: 215
+2018-10-24 14:19:55 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2018-10-24 14:19:55 DEBUG headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2018-10-24 14:19:55 DEBUG headers:265 - << Date: Wed, 24 Oct 2018 08:49:54 GMT
+2018-10-24 14:19:55 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-10-24 14:19:55 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2018-10-24 14:19:55 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-24 14:19:56 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:56 DEBUG DefaultClientConnectionOperator:177 - Connecting to hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:58 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-10-24 14:19:58 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-10-24 14:19:58 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-10-24 14:19:58 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-10-24 14:19:58 DEBUG DefaultClientConnection:274 - Sending request: GET /api/v1/jayaprakash.s%40harman.co.in?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "GET /api/v1/jayaprakash.s%40harman.co.in?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1Mzc3NzA1ODAsIm5iZiI6MTUzNzc2Njk4MCwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLzYzNGIzMzM5LTlkOGUtNDc2ZS1iN2QwLTI0YmI2NmFiNDk0Yy8iLCJzdWIiOiJhNTk0Y2Y5ZC1mNWQzLTQyZTgtYTA5Yy0zY2E3ZTgyMTBiNmYiLCJhdWQiOiJiYjE5ZTRhZS0zYmI1LTQxZjUtOWIwZi1kYjYwMjBiZDc3M2YiLCJub25jZSI6IjllMDEwYTdiLWY2NTUtNDZkYS04NWY0LWQ0MzZkMTczYWNlYyIsImlhdCI6MTUzNzc2Njk4MCwiYXV0aF90aW1lIjoxNTM3NzY2OTgwLCJleHRlbnNpb25fUm9sZSI6IlByb3BlcnR5IEFkbWluIiwibmFtZSI6Ik1hbmp1bmF0aGEgIEhTIiwiZW1haWxzIjpbIm1hbmp1bmF0aGEuc0BoYXJtYW4uY29tIl0sInRmcCI6IkIyQ18xX0hDU19TaWduSW5VcFBvbGljeSJ9.UxbQfCDsrkVtTPnTtngyD5nV91m5XfsZ9xkhrvuhTjkcu4-W1T_0YqFikzxnTUlFJJ1n84KMlomipiaRRNyyxPEWKpqTA3fvBqLG9EnSI7xA4v5Z2KFJmu53GIYyyy5yftQo9N4DcMwjYkzpDqyfmcuK23hM8hjxdZ2N90vPEo-zScknSMJZSkt1xBltI4odPyxwW028kYoFgSbEHByk4XqFFSKq0APnMKG_NyeLH7v-Z1wwpEeX49bPZHqID6zC-Yd4tAYl0CxrWzka8dcLYklakqY6_T3otWh7QFrlABnORr3OExwxTSBRckKgsoVOaW0jVnD4-hPFaw9IKCM_Xg[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "Accept: application/json[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "Host: hcsfabricqan.southcentralus.cloudapp.azure.com:8892[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-24 14:19:58 DEBUG wire:73 -  >> "[\r][\n]"
+2018-10-24 14:19:58 DEBUG headers:278 - >> GET /api/v1/jayaprakash.s%40harman.co.in?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1
+2018-10-24 14:19:58 DEBUG headers:281 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1Mzc3NzA1ODAsIm5iZiI6MTUzNzc2Njk4MCwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLzYzNGIzMzM5LTlkOGUtNDc2ZS1iN2QwLTI0YmI2NmFiNDk0Yy8iLCJzdWIiOiJhNTk0Y2Y5ZC1mNWQzLTQyZTgtYTA5Yy0zY2E3ZTgyMTBiNmYiLCJhdWQiOiJiYjE5ZTRhZS0zYmI1LTQxZjUtOWIwZi1kYjYwMjBiZDc3M2YiLCJub25jZSI6IjllMDEwYTdiLWY2NTUtNDZkYS04NWY0LWQ0MzZkMTczYWNlYyIsImlhdCI6MTUzNzc2Njk4MCwiYXV0aF90aW1lIjoxNTM3NzY2OTgwLCJleHRlbnNpb25fUm9sZSI6IlByb3BlcnR5IEFkbWluIiwibmFtZSI6Ik1hbmp1bmF0aGEgIEhTIiwiZW1haWxzIjpbIm1hbmp1bmF0aGEuc0BoYXJtYW4uY29tIl0sInRmcCI6IkIyQ18xX0hDU19TaWduSW5VcFBvbGljeSJ9.UxbQfCDsrkVtTPnTtngyD5nV91m5XfsZ9xkhrvuhTjkcu4-W1T_0YqFikzxnTUlFJJ1n84KMlomipiaRRNyyxPEWKpqTA3fvBqLG9EnSI7xA4v5Z2KFJmu53GIYyyy5yftQo9N4DcMwjYkzpDqyfmcuK23hM8hjxdZ2N90vPEo-zScknSMJZSkt1xBltI4odPyxwW028kYoFgSbEHByk4XqFFSKq0APnMKG_NyeLH7v-Z1wwpEeX49bPZHqID6zC-Yd4tAYl0CxrWzka8dcLYklakqY6_T3otWh7QFrlABnORr3OExwxTSBRckKgsoVOaW0jVnD4-hPFaw9IKCM_Xg
+2018-10-24 14:19:58 DEBUG headers:281 - >> Accept: application/json
+2018-10-24 14:19:58 DEBUG headers:281 - >> Host: hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:58 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-10-24 14:19:58 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2018-10-24 14:19:58 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-10-24 14:19:59 DEBUG wire:73 -  << "HTTP/1.1 404 Not Found[\r][\n]"
+2018-10-24 14:19:59 DEBUG wire:73 -  << "Content-Length: 218[\r][\n]"
+2018-10-24 14:19:59 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-10-24 14:19:59 DEBUG wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2018-10-24 14:19:59 DEBUG wire:73 -  << "Date: Wed, 24 Oct 2018 08:49:58 GMT[\r][\n]"
+2018-10-24 14:19:59 DEBUG wire:73 -  << "[\r][\n]"
+2018-10-24 14:19:59 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 404 Not Found
+2018-10-24 14:19:59 DEBUG headers:262 - << HTTP/1.1 404 Not Found
+2018-10-24 14:19:59 DEBUG headers:265 - << Content-Length: 218
+2018-10-24 14:19:59 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2018-10-24 14:19:59 DEBUG headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2018-10-24 14:19:59 DEBUG headers:265 - << Date: Wed, 24 Oct 2018 08:49:58 GMT
+2018-10-24 14:19:59 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-10-24 14:19:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json; charset=utf-8
+2018-10-24 14:19:59 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-10-24 14:19:59 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:19:59 DEBUG DefaultClientConnectionOperator:177 - Connecting to hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:20:00 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-10-24 14:20:00 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-10-24 14:20:00 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-10-24 14:20:00 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-10-24 14:20:00 DEBUG DefaultClientConnection:274 - Sending request: GET /api/v1/users?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "GET /api/v1/users?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1Mzc3NzA1ODAsIm5iZiI6MTUzNzc2Njk4MCwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLzYzNGIzMzM5LTlkOGUtNDc2ZS1iN2QwLTI0YmI2NmFiNDk0Yy8iLCJzdWIiOiJhNTk0Y2Y5ZC1mNWQzLTQyZTgtYTA5Yy0zY2E3ZTgyMTBiNmYiLCJhdWQiOiJiYjE5ZTRhZS0zYmI1LTQxZjUtOWIwZi1kYjYwMjBiZDc3M2YiLCJub25jZSI6IjllMDEwYTdiLWY2NTUtNDZkYS04NWY0LWQ0MzZkMTczYWNlYyIsImlhdCI6MTUzNzc2Njk4MCwiYXV0aF90aW1lIjoxNTM3NzY2OTgwLCJleHRlbnNpb25fUm9sZSI6IlByb3BlcnR5IEFkbWluIiwibmFtZSI6Ik1hbmp1bmF0aGEgIEhTIiwiZW1haWxzIjpbIm1hbmp1bmF0aGEuc0BoYXJtYW4uY29tIl0sInRmcCI6IkIyQ18xX0hDU19TaWduSW5VcFBvbGljeSJ9.UxbQfCDsrkVtTPnTtngyD5nV91m5XfsZ9xkhrvuhTjkcu4-W1T_0YqFikzxnTUlFJJ1n84KMlomipiaRRNyyxPEWKpqTA3fvBqLG9EnSI7xA4v5Z2KFJmu53GIYyyy5yftQo9N4DcMwjYkzpDqyfmcuK23hM8hjxdZ2N90vPEo-zScknSMJZSkt1xBltI4odPyxwW028kYoFgSbEHByk4XqFFSKq0APnMKG_NyeLH7v-Z1wwpEeX49bPZHqID6zC-Yd4tAYl0CxrWzka8dcLYklakqY6_T3otWh7QFrlABnORr3OExwxTSBRckKgsoVOaW0jVnD4-hPFaw9IKCM_Xg[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "Accept: application/json[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "Host: hcsfabricqan.southcentralus.cloudapp.azure.com:8892[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-24 14:20:00 DEBUG wire:73 -  >> "[\r][\n]"
+2018-10-24 14:20:00 DEBUG headers:278 - >> GET /api/v1/users?x-harman-tenantId=c4bfbc112aec45f5a8ab3136df1972fa HTTP/1.1
+2018-10-24 14:20:00 DEBUG headers:281 - >> Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ilg1ZVhrNHh5b2pORnVtMWtsMll0djhkbE5QNC1jNTdkTzZRR1RWQndhTmsifQ.eyJleHAiOjE1Mzc3NzA1ODAsIm5iZiI6MTUzNzc2Njk4MCwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLzYzNGIzMzM5LTlkOGUtNDc2ZS1iN2QwLTI0YmI2NmFiNDk0Yy8iLCJzdWIiOiJhNTk0Y2Y5ZC1mNWQzLTQyZTgtYTA5Yy0zY2E3ZTgyMTBiNmYiLCJhdWQiOiJiYjE5ZTRhZS0zYmI1LTQxZjUtOWIwZi1kYjYwMjBiZDc3M2YiLCJub25jZSI6IjllMDEwYTdiLWY2NTUtNDZkYS04NWY0LWQ0MzZkMTczYWNlYyIsImlhdCI6MTUzNzc2Njk4MCwiYXV0aF90aW1lIjoxNTM3NzY2OTgwLCJleHRlbnNpb25fUm9sZSI6IlByb3BlcnR5IEFkbWluIiwibmFtZSI6Ik1hbmp1bmF0aGEgIEhTIiwiZW1haWxzIjpbIm1hbmp1bmF0aGEuc0BoYXJtYW4uY29tIl0sInRmcCI6IkIyQ18xX0hDU19TaWduSW5VcFBvbGljeSJ9.UxbQfCDsrkVtTPnTtngyD5nV91m5XfsZ9xkhrvuhTjkcu4-W1T_0YqFikzxnTUlFJJ1n84KMlomipiaRRNyyxPEWKpqTA3fvBqLG9EnSI7xA4v5Z2KFJmu53GIYyyy5yftQo9N4DcMwjYkzpDqyfmcuK23hM8hjxdZ2N90vPEo-zScknSMJZSkt1xBltI4odPyxwW028kYoFgSbEHByk4XqFFSKq0APnMKG_NyeLH7v-Z1wwpEeX49bPZHqID6zC-Yd4tAYl0CxrWzka8dcLYklakqY6_T3otWh7QFrlABnORr3OExwxTSBRckKgsoVOaW0jVnD4-hPFaw9IKCM_Xg
+2018-10-24 14:20:00 DEBUG headers:281 - >> Accept: application/json
+2018-10-24 14:20:00 DEBUG headers:281 - >> Host: hcsfabricqan.southcentralus.cloudapp.azure.com:8892
+2018-10-24 14:20:00 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-10-24 14:20:00 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_162)
+2018-10-24 14:20:00 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-10-24 14:20:01 DEBUG wire:73 -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2018-10-24 14:20:01 DEBUG wire:73 -  << "Content-Length: 0[\r][\n]"
+2018-10-24 14:20:01 DEBUG wire:73 -  << "Server: Microsoft-HTTPAPI/2.0[\r][\n]"
+2018-10-24 14:20:01 DEBUG wire:73 -  << "Date: Wed, 24 Oct 2018 08:50:00 GMT[\r][\n]"
+2018-10-24 14:20:01 DEBUG wire:73 -  << "[\r][\n]"
+2018-10-24 14:20:01 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 401 Unauthorized
+2018-10-24 14:20:01 DEBUG headers:262 - << HTTP/1.1 401 Unauthorized
+2018-10-24 14:20:01 DEBUG headers:265 - << Content-Length: 0
+2018-10-24 14:20:01 DEBUG headers:265 - << Server: Microsoft-HTTPAPI/2.0
+2018-10-24 14:20:01 DEBUG headers:265 - << Date: Wed, 24 Oct 2018 08:50:00 GMT
+2018-10-24 14:20:01 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-10-24 14:20:01 DEBUG DefaultHttpClient:77 - Authentication required
+2018-10-24 14:20:01 DEBUG DefaultHttpClient:107 - hcsfabricqan.southcentralus.cloudapp.azure.com:8892 requested authentication
+2018-10-24 14:20:01 DEBUG DefaultHttpClient:111 - Response contains no authentication challenges
+2018-10-24 14:20:01 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-24 14:20:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-24 14:20:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-24 14:20:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-24 14:20:01 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/jayaprakashs/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-10-24 14:20:02 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-10-24 14:20:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-10-24 14:20:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-10-24 14:20:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-10-24 14:20:02 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/jayaprakashs/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

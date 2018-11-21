@@ -1,0 +1,79 @@
+{
+  "definitions": {},
+  "type": "object",
+  "required": [
+    "Id",
+    "FirstName",
+    "LastName",
+    "Email",
+    "Phone",
+    "DefaultPropertyId",
+    "TenantId",
+    "Properties",
+    "UserPreferences",
+    "Role",
+    "ProfileImageUrl",
+    "ETag"
+  ],
+  "properties": {
+    "Id": {
+      "type": "string"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "DefaultPropertyId": {
+      "type": "string"
+    },
+    "TenantId": {
+      "type": "string"
+    },
+    "Properties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "PropertyName",
+          "PropertyId"
+        ],
+        "properties": {
+          "PropertyName": {
+            "type": "string"
+          },
+          "PropertyId": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "UserPreferences": {
+      "type": "object",
+      "required": [
+        "ColumnPreferences"
+      ],
+      "properties": {
+        "ColumnPreferences": {
+          "type": "array"
+        }
+      }
+    },
+    "Role": {
+      "type": "string"
+    },
+    "ProfileImageUrl": {
+      "type": "string"
+    },
+    "ETag": {
+      "type": "integer"
+    }
+  }
+}
